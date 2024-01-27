@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4330D5C-6CBB-408A-8385-2CA6C2646691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Web", "src\ImmersiveView.Web\ImmersiveView.Web.csproj", "{D64E5F7F-3E43-42D2-9FF3-78CDD216F866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Application", "src\ImmersiveView.Application\ImmersiveView.Application.csproj", "{866C82DB-5E4E-471C-93E4-2B45E776CB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Contracts", "src\ImmersiveView.Contracts\ImmersiveView.Contracts.csproj", "{EEE69213-019D-4CA3-A424-10336BC9A5E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Identity", "src\ImmersiveView.Identity\ImmersiveView.Identity.csproj", "{FB6240B4-8337-490F-B91F-322A2FDED43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Infrastructure", "src\ImmersiveView.Infrastructure\ImmersiveView.Infrastructure.csproj", "{F8EB0975-4CCA-4B17-86C2-D6A24848CC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Persistence", "src\ImmersiveView.Persistence\ImmersiveView.Persistence.csproj", "{47EF843D-D942-4879-99A0-E979EC93ABB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Presentation", "src\ImmersiveView.Presentation\ImmersiveView.Presentation.csproj", "{82637FEC-8225-4980-9B66-06CD7AADD326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Repositories", "src\ImmersiveView.Repositories\ImmersiveView.Repositories.csproj", "{B492D598-DD10-4C88-A0D7-BD87A23BF074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Domain.Model", "src\ImmersiveView.Domain.Model\ImmersiveView.Domain.Model.csproj", "{3627E0BE-74B1-42E7-9906-3E8094CDD0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Domain.Services", "src\ImmersiveView.Domain.Services\ImmersiveView.Domain.Services.csproj", "{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64E5F7F-3E43-42D2-9FF3-78CDD216F866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64E5F7F-3E43-42D2-9FF3-78CDD216F866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64E5F7F-3E43-42D2-9FF3-78CDD216F866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64E5F7F-3E43-42D2-9FF3-78CDD216F866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866C82DB-5E4E-471C-93E4-2B45E776CB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866C82DB-5E4E-471C-93E4-2B45E776CB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866C82DB-5E4E-471C-93E4-2B45E776CB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866C82DB-5E4E-471C-93E4-2B45E776CB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE69213-019D-4CA3-A424-10336BC9A5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE69213-019D-4CA3-A424-10336BC9A5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE69213-019D-4CA3-A424-10336BC9A5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE69213-019D-4CA3-A424-10336BC9A5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6240B4-8337-490F-B91F-322A2FDED43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6240B4-8337-490F-B91F-322A2FDED43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6240B4-8337-490F-B91F-322A2FDED43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6240B4-8337-490F-B91F-322A2FDED43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EB0975-4CCA-4B17-86C2-D6A24848CC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EB0975-4CCA-4B17-86C2-D6A24848CC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EB0975-4CCA-4B17-86C2-D6A24848CC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EB0975-4CCA-4B17-86C2-D6A24848CC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EF843D-D942-4879-99A0-E979EC93ABB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EF843D-D942-4879-99A0-E979EC93ABB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EF843D-D942-4879-99A0-E979EC93ABB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EF843D-D942-4879-99A0-E979EC93ABB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82637FEC-8225-4980-9B66-06CD7AADD326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82637FEC-8225-4980-9B66-06CD7AADD326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82637FEC-8225-4980-9B66-06CD7AADD326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82637FEC-8225-4980-9B66-06CD7AADD326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B492D598-DD10-4C88-A0D7-BD87A23BF074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B492D598-DD10-4C88-A0D7-BD87A23BF074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B492D598-DD10-4C88-A0D7-BD87A23BF074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B492D598-DD10-4C88-A0D7-BD87A23BF074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3627E0BE-74B1-42E7-9906-3E8094CDD0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3627E0BE-74B1-42E7-9906-3E8094CDD0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3627E0BE-74B1-42E7-9906-3E8094CDD0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3627E0BE-74B1-42E7-9906-3E8094CDD0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D64E5F7F-3E43-42D2-9FF3-78CDD216F866} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{866C82DB-5E4E-471C-93E4-2B45E776CB4D} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{EEE69213-019D-4CA3-A424-10336BC9A5E5} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{FB6240B4-8337-490F-B91F-322A2FDED43D} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{F8EB0975-4CCA-4B17-86C2-D6A24848CC7B} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{47EF843D-D942-4879-99A0-E979EC93ABB8} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{82637FEC-8225-4980-9B66-06CD7AADD326} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{B492D598-DD10-4C88-A0D7-BD87A23BF074} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{3627E0BE-74B1-42E7-9906-3E8094CDD0D2} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+	EndGlobalSection
+EndGlobal
