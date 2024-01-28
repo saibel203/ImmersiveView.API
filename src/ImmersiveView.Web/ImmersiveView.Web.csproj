@@ -1,9 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0338d38f-64d3-4017-a361-31c750b9ca19</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog" Version="3.1.2-dev-02097" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImmersiveView.Identity\ImmersiveView.Identity.csproj" />
+    <ProjectReference Include="..\ImmersiveView.Infrastructure\ImmersiveView.Infrastructure.csproj" />
+    <ProjectReference Include="..\ImmersiveView.Persistence\ImmersiveView.Persistence.csproj" />
+    <ProjectReference Include="..\ImmersiveView.Presentation\ImmersiveView.Presentation.csproj" />
+  </ItemGroup>
 
 </Project>
