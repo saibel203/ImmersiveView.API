@@ -1,18 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Serilog;
 
-namespace ImmersiveView.Identity.Seeds;
+namespace ImmersiveView.Persistence.Seeds;
 
-public class SeedUsersDbContext(ImmersiveViewUsersDbContext usersDbContext)
+public class SeedDataDbContext(ImmersiveViewDataDbContext dataDbContext)
 {
-    private readonly ILogger _logger = Log.ForContext<SeedUsersDbContext>();
-    
+    private readonly ILogger _logger = Log.ForContext<SeedDataDbContext>();
+
     public async Task InitializeUsersDatabaseAsync()
     {
         try
         {
-            if (usersDbContext.Database.IsSqlServer())
-                await usersDbContext.Database.MigrateAsync();
+            if (dataDbContext.Database.IsSqlServer())
+                await dataDbContext.Database.MigrateAsync();
         }
         catch (Exception ex)
         {
@@ -36,6 +36,5 @@ public class SeedUsersDbContext(ImmersiveViewUsersDbContext usersDbContext)
 
     private async Task TrySeedUsersDataAsync()
     {
-        
     }
 }

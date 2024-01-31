@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ImmersiveView.Domain.Model\ImmersiveView.Domain.Model.csproj" />
+    <ProjectReference Include="..\ImmersiveView.Persistence\ImmersiveView.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
