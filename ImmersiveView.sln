@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Domain.Model"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Domain.Services", "src\ImmersiveView.Domain.Services\ImmersiveView.Domain.Services.csproj", "{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveView.Quartz", "src\ImmersiveView.Quartz\ImmersiveView.Quartz.csproj", "{2AD1320B-C553-437E-B5F8-9722B315C6EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD1320B-C553-437E-B5F8-9722B315C6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD1320B-C553-437E-B5F8-9722B315C6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD1320B-C553-437E-B5F8-9722B315C6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD1320B-C553-437E-B5F8-9722B315C6EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D64E5F7F-3E43-42D2-9FF3-78CDD216F866} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
@@ -86,5 +92,6 @@ Global
 		{B492D598-DD10-4C88-A0D7-BD87A23BF074} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
 		{3627E0BE-74B1-42E7-9906-3E8094CDD0D2} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
 		{6910FBCB-AF11-4327-B595-DF9AFC1F6EE1} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
+		{2AD1320B-C553-437E-B5F8-9722B315C6EB} = {C4330D5C-6CBB-408A-8385-2CA6C2646691}
 	EndGlobalSection
 EndGlobal

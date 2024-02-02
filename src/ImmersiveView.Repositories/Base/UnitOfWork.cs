@@ -1,7 +1,7 @@
 ﻿using ImmersiveView.Domain.Model.RepositoryAbstractions;
 using ImmersiveView.Persistence;
 
-namespace ImmersiveView.Repositories;
+namespace ImmersiveView.Repositories.Base;
 
 public class UnitOfWork(ImmersiveViewDataDbContext dateDbContext) : IUnitOfWork
 {

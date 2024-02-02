@@ -1,4 +1,5 @@
 ﻿using ImmersiveView.Domain.Model.RepositoryAbstractions;
+using ImmersiveView.Repositories.Base;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ImmersiveView.Repositories;

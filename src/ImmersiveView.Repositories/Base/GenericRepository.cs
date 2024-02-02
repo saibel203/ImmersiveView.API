@@ -3,7 +3,7 @@ using ImmersiveView.Domain.Model.RepositoryAbstractions;
 using ImmersiveView.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace ImmersiveView.Repositories;
+namespace ImmersiveView.Repositories.Base;
 
 public class GenericRepository<TEntity> : IGenericRepository<TEntity>
     where TEntity : class

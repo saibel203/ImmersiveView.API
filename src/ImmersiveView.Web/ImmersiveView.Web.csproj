@@ -21,6 +21,7 @@
     <ProjectReference Include="..\ImmersiveView.Infrastructure\ImmersiveView.Infrastructure.csproj" />
     <ProjectReference Include="..\ImmersiveView.Persistence\ImmersiveView.Persistence.csproj" />
     <ProjectReference Include="..\ImmersiveView.Presentation\ImmersiveView.Presentation.csproj" />
+    <ProjectReference Include="..\ImmersiveView.Quartz\ImmersiveView.Quartz.csproj" />
     <ProjectReference Include="..\ImmersiveView.Repositories\ImmersiveView.Repositories.csproj" />
   </ItemGroup>
 

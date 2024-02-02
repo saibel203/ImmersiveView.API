@@ -19,4 +19,9 @@
     <PackageReference Include="Serilog.Sinks.SendGridEmail" Version="2.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ImmersiveView.Domain.Model\ImmersiveView.Domain.Model.csproj" />
+    <ProjectReference Include="..\ImmersiveView.Persistence\ImmersiveView.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

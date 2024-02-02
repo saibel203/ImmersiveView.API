@@ -1,4 +1,6 @@
 ﻿using System.Net;
+using ImmersiveView.Domain.Model.InfrastructureServiceAbstractions;
+using ImmersiveView.Infrastructure.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SendGrid;
@@ -30,7 +32,7 @@ public static class InfrastructureServicesRegistration
         const string sendGridApiKey = "SendGridOptions:ApiSecretKey";
 
         const string currentProjectName = "ApplicationsName:Infrastructure";
-        const string logsPath = "Paths:LogPath";
+        const string logsPath = "Paths:LogFilePath";
 
         const string outputTemplate =
             "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}";
@@ -88,6 +90,9 @@ public static class InfrastructureServicesRegistration
             .WriteTo.Email(emailConnectionInfo, restrictedToMinimumLevel: LogEventLevel.Error)
             .Filter.ByIncludingOnly(Matching.FromSource<TFiltering>())
             .CreateLogger();
+        
+        /*=============================== REGISTRATION INFRASTRUCTURE SERVICES ===============================*/
+        services.AddTransient<ILogEventsService, LogEventsService>();
 
         return services;
     }
